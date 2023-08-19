@@ -1,51 +1,41 @@
-.Weather {
-    font-family: arial, sans-serif;
-    border: 1px solid#dadde1;
-    padding: 16px;
-    border-radius: 4px;
-    color: rgb(135, 135, 135);
-}
-
-.Weather h1 {
-    font-size: 24px;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./Images/sunset1.jpg")
+  }
+  
+  h1 {
+    color:black;
+    font-size: 36px;
     font-weight: 100;
-    margin: 20px 0 0 0;
-    line-height: 29px;
-}
-
-.Weather ul {
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+  li {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
     margin: 0;
     padding: 0;
-}
-
-.Weather li {
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
-    list-style: none;
-}
-.Weather img {
-    height: 64px;
-    width: 64px;
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.Weather .temperature {
-    font-weight: bold;
-    color: rgb(33, 33, 33);
-    font-size: 64px;
-    line-height: 64px;
-    margin-left: 5px;
-    font-weight: 400;
-    margin-left: 10px;
-}
-
-.Weather .unit {
-    color: rgb(33, 33, 33);
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-    line-height: 1;
-    top: -34px;
-}
+  }
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    font-size: 10px;
+    color: black;
+  }
+  .Weather {
+    background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    border: 1px solid #ced4da;
+    max-width: 950px;
+    height: 400px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+  }

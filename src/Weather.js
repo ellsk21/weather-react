@@ -41,8 +41,17 @@ import "./Weather.css"
                     </div>
                 </div>
             </div>
+            <div className="col-6">
+                <ul>
+                    <li>Humidity</li>
+                    <li>Wind</li>
+                </ul>
             </div>
             
+            <footer>
+                This project was coded by: Ellie Korth and is {" "} <a href="https://github.com/ellsk21/weather-react">open sourced on GitHub</a>
+            </footer>
+            </div>
             </div>
             )
         }
